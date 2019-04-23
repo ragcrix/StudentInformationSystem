@@ -1,0 +1,8 @@
+{
+                "id" : "1",
+                "name" : "ragcrix",
+                "studentNumber" : "23",
+                "email" : "ragcrix@rc.com",
+                "courseList" : [ "English", "Math" ],
+                "gpa" : 3.58
+}
