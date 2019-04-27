@@ -35,8 +35,8 @@ public class StudentController {
     }
 
     @GetMapping(value = "/orderByGpa")
-    public List<Student> findAllByOrderByGpa() {
-        return studentService.findAllByOrderByGpa();
+    public List<Student> findAllByOrderByGpaDesc() {
+        return studentService.findAllByOrderByGpaDesc();
     }
 
     @PostMapping(value = "/")
@@ -46,8 +46,9 @@ public class StudentController {
     }
 
     @DeleteMapping(value = "/{studentNumber}")
-    public void deleteStudent(@PathVariable Long studentNumber) {
-        studentService.deleteStudent(studentService.findByStudentNumber(studentNumber).getId());
+    public ResponseEntity<?> deleteStudentByStudentNumber(@PathVariable long studentNumber) {
+        studentService.deleteStudentById(studentService.findByStudentNumber(studentNumber).getId());
+        return new ResponseEntity("Student deleted successfully", HttpStatus.OK);
     }
 
 }

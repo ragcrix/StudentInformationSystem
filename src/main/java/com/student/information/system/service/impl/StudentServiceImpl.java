@@ -33,8 +33,8 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public List<Student> findAllByOrderByGpa() {
-        return studentRepository.findAllByOrderByGpa();
+    public List<Student> findAllByOrderByGpaDesc() {
+        return studentRepository.findAllByOrderByGpaDesc();
     }
 
     @Override
@@ -43,7 +43,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public void deleteStudent(String id) {
+    public void deleteStudentById(String id) {
         studentRepository.deleteById(id);
     }
 }

@@ -1,8 +1,32 @@
-{
-                "id" : "1",
-                "name" : "ragcrix",
-                "studentNumber" : "23",
-                "email" : "ragcrix@rc.com",
-                "courseList" : [ "English", "Math" ],
-                "gpa" : 3.58
-}
+[
+  {
+    "name": "ragcrix",
+    "studentNumber": 23,
+    "email": "ragcrix@rc.com",
+    "courseList": [
+      "English",
+      "Math"
+    ],
+    "gpa": 3.58
+  },
+  {
+    "name": "ygt",
+    "studentNumber": 28,
+    "email": "ygt@ygt.com",
+    "courseList": [
+      "Turkish",
+      "Science"
+    ],
+    "gpa": 2.48
+  },
+  {
+    "name": "abc",
+    "studentNumber": 45,
+    "email": "abc@abc.com",
+    "courseList": [
+      "Art",
+      "Science"
+    ],
+    "gpa": 3.28
+  }
+]

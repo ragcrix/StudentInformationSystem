@@ -15,10 +15,10 @@ public interface StudentService {
 
     Student findByEmail(String email);
 
-    List<Student> findAllByOrderByGpa();
+    List<Student> findAllByOrderByGpaDesc();
 
     void saveOrUpdateStudent(Student student);
 
-    void deleteStudent(String id);
+    void deleteStudentById(String id);
 
 }

@@ -16,6 +16,6 @@ public interface StudentRepository extends MongoRepository<Student, String> {
 
     Student findByEmail(String email);
 
-    List<Student> findAllByOrderByGpa();
+    List<Student> findAllByOrderByGpaDesc();
 
 }
