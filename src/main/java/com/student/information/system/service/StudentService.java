@@ -17,7 +17,7 @@ public interface StudentService {
 
     List<Student> findAllByOrderByGpaDesc();
 
-    void saveOrUpdateStudent(Student student);
+    Student saveOrUpdateStudent(Student student);
 
     void deleteStudentById(String id);
 
