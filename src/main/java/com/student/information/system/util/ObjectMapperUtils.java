@@ -1,4 +1,4 @@
-package com.student.information.system.component;
+package com.student.information.system.util;
 
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
