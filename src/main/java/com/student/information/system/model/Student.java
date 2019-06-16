@@ -21,7 +21,7 @@ public class Student {
     public Student() {
     }
 
-    public Student(String name, long studenNumber, String email, List<String> courseList, float gpa) {
+    public Student(String name, long studentNumber, String email, List<String> courseList, float gpa) {
         this.name = name;
         this.studentNumber = studentNumber;
         this.email = email;
