@@ -1,9 +1,9 @@
 package com.student.information.system.controller;
 
-import com.student.information.system.component.ObjectMapperUtils;
 import com.student.information.system.dto.StudentDTO;
 import com.student.information.system.model.Student;
 import com.student.information.system.service.StudentService;
+import com.student.information.system.util.ObjectMapperUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
